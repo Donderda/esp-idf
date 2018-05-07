@@ -4,7 +4,7 @@ Base MAC address
 Overview
 --------
 
-Serveral MAC addresses (universally administered by IEEE) are uniquely assigned to the networking interfaces (WiFi/BT/Ethernet). 
+Several MAC addresses (universally administered by IEEE) are uniquely assigned to the networking interfaces (WiFi/BT/Ethernet). 
 The final octet of each universally administered MAC address increases by one. Only the first one which is called base MAC address 
 of them is stored in EFUSE or external storage, the others are generated from it. Here, 'generate' means adding 0, 1, 2 and 3 
 (respectively) to the final octet of the base MAC address. 
